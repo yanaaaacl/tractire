@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
+
+@import './reset.css';
+
+body{
+    font-family: "roboto", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #1d1d1d;
+}
+.container{
+    max-width: 1124px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+.header{
+    
+}
+.header__top{
+    padding: 30px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header__btn{
+
+}
+.header__link{
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 24px;
+    text-align: center;
+    border-radius: 2px;
+    padding: 14px 20px;
+    border: 1px solid #e0e0e0;
+    margin-right: 27px;
+    color:#1d1d1d;
+
+
+}
+.header__content{
+    background-image: url(../img/photo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+    padding: 80px 0;
+   
+    
+    
+
+}
+.header__tractire-name{
+   max-width: 389px;
+    border-radius: 2px;
+    background-color: #fff;
+    padding: 38px 0 46px;
+    margin: 55px 0 200px;
+   
+
+}
+.header__title{
+    font-size: 36px;
+    line-height: 43px;
+    margin-bottom:  62px;
+    text-align: center;
+}
+.header__tractire-cart{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 29px 0 38px;
+}
+.header__tractire-price{
+    font-size: 14px;
+    line-height: 17px;
+    color: #626262;
+}
+.header__tractire-time{
+    color: #fff;
+    background-color: #262626;
+    padding: 8px 16px;
+    text-align: center;
+    border-radius: 16px;
+    font-size: 13px;
+    line-height: 16px;
+    margin-bottom: 10px;
+
+}
+.header__menu{
+padding: 32px 0 29px;
+border-bottom: 1px solid #757575;
+
+}
+.header__link-menu.menu-color{
+    color: #327430;
+
+}
+.header__link-menu{
+    color: #626262;
+    line-height: 19px;
+
+}
+.header__link-menu + .header__link-menu{
+    padding-left: 40px;
+}
