@@ -3,7 +3,7 @@
 @import './reset.css';
 
 body{
-    font-family: "roboto", sans-serif;
+    font-family:  'Roboto', sans-serif;
     font-weight: 400;
     font-size: 16px;
     color: #1d1d1d;
@@ -88,7 +88,7 @@ body{
 }
 .header__menu{
 padding: 32px 0 29px;
-border-bottom: 1px solid #757575;
+border-bottom: 1px solid rgb(117, 117, 117);
 
 }
 .header__link-menu.menu-color{
@@ -102,4 +102,53 @@ border-bottom: 1px solid #757575;
 }
 .header__link-menu + .header__link-menu{
     padding-left: 40px;
+}
+.menu__food{
+    padding: 56px 0 80px;
+}
+.menu__food-title{
+    font-size: 22px;
+    line-height: 34px;
+    margin-bottom: 32px;
+}
+.menu__food-inner{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 16px;
+    padding-bottom: 49px;
+}
+.menu__food-name{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 16px;
+    border: 1px solid #d8d8d8;
+    margin-bottom: 49px;
+
+}
+.menu__food-name.name{
+    box-shadow: (0px 4px 4px 4px);
+    
+}
+    
+
+.menu__food-name-title{
+    line-height: 24px;
+    padding-top: 16px;
+    
+}
+.menu__food-ingredients{
+   margin-top: 4px;
+   font-size: 13px;
+   line-height: 21px;
+   color: #626262;
+}
+.menu__food-price{
+    margin-top: 84px;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 21px;
+    
+}
+.menu__food-price.price{
+    margin-top: 58px;
 }
