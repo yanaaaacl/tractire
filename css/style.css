@@ -152,3 +152,97 @@ border-bottom: 1px solid rgb(117, 117, 117);
 .menu__food-price.price{
     margin-top: 58px;
 }
+.footer{
+    background-color: #000000;
+    padding: 56px 0 40px;
+}
+.footer__logo{
+    
+    padding-bottom: 40px;
+    border-bottom: 1px solid rgb(255, 255, 255);
+    
+}
+.footer__inner{
+    padding: 32px 0 48px;
+    display: flex;
+
+    align-items: center;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 16px;
+    color: #fff;
+    border-bottom: 1px solid #fff;
+}
+.footer__social{
+    padding-right: 97px;
+}
+.footer__btn{
+    border: 1px solid #3b3b3b;
+    background-color: #3B3B3B;
+    border-radius: 2px;
+    padding: 12px 24px 12px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 33px;
+}
+.footer__world{
+    padding-left: 24px;
+    padding-right: 17px;
+}
+.footer__language{
+    padding-right: 106px;
+
+}
+.footer__text-logo{
+    font-size: 16px;
+    line-height: 19px;
+    margin-bottom: 17px;
+}
+.footer__social-link + .footer__social-link{
+    padding-left: 12px;
+}
+.footer__infoForPartners{
+padding-right: 128px;
+}
+.footer__infoForPartners-inner{
+
+}
+.footer__infoForPartners-items + .footer__infoForPartners-items{
+padding-top: 23px;
+}
+.footer__infoForPartners-link{
+    color: #fff;
+}
+.footer__info{
+
+}
+.footer__info-inner{
+
+}
+.footer__info-items + .footer__info-items{
+    padding-top: 23px;
+
+}
+.footer__info-link{
+    color: #fff;
+}
+.footer__buttons{
+    padding: 41px 0 39px;
+    text-align: center;
+    border-bottom: 1px solid #fff;
+}
+.footer__buttons-link + .footer__buttons-link{
+    padding-left: 40px;
+}
+.footer__secret{
+    display: flex;
+    font-size: 11px;
+    line-height: 13px;
+    align-items: center;
+    color: #fff;
+    padding: 40px 0 0;
+}
+.uber + .uber{
+    padding-left: 180px;
+}
